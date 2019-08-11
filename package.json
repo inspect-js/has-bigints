@@ -1,9 +1,10 @@
 {
 	"name": "has-bigints",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Determine if the JS environment has BigInt support.",
 	"main": "index.js",
 	"scripts": {
+		"prepublish": "not-in-publish || safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"tests-only": "node test",
@@ -28,7 +29,15 @@
 	"homepage": "https://github.com/ljharb/has-bigints#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^14.0.2",
+		"auto-changelog": "^1.14.1",
 		"eslint": "^6.1.0",
+		"in-publish": "^2.0.0",
+		"safe-publish-latest": "^1.1.2",
 		"tape": "^4.11.0"
+	},
+	"auto-changelog": {
+		"backfillLimit": false,
+		"commitLimit": false,
+		"template": "keepachangelog"
 	}
 }
