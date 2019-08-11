@@ -1,0 +1,25 @@
+{
+	"name": "has-bigints",
+	"version": "0.0.0",
+	"description": "Determine if the JS environment has BigInt support.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/has-bigints.git"
+	},
+	"keywords": [
+		"BigInt",
+		"bigints",
+		"typeof",
+		"ES2020"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/has-bigints/issues"
+	},
+	"homepage": "https://github.com/ljharb/has-bigints#readme"
+}
