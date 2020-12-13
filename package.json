@@ -5,11 +5,11 @@
 	"main": "index.js",
 	"scripts": {
 		"prepublish": "not-in-publish || safe-publish-latest",
-		"lint": "eslint .",
+		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
-		"tests-only": "node test",
+		"tests-only": "nyc tape 'test/**/*.js'",
 		"test": "npm run tests-only",
-		"posttest": "npx aud --production"
+		"posttest": "aud --production"
 	},
 	"repository": {
 		"type": "git",
@@ -36,6 +36,7 @@
 		"auto-changelog": "^2.0.0",
 		"eslint": "^6.8.0",
 		"in-publish": "^2.0.1",
+		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.0-next.5"
 	},
