@@ -4,6 +4,8 @@
 	"description": "Determine if the JS environment has BigInt support.",
 	"main": "index.js",
 	"scripts": {
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
 		"prepublish": "not-in-publish || safe-publish-latest",
 		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
