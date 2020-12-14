@@ -1,6 +1,5 @@
 # has-bigints <sup>[![Version Badge][2]][1]</sup>
 
-[![Build Status][3]][4]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -22,9 +21,7 @@ hasBigInts() === true; // if the environment has native BigInt support. Not poly
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/has-bigints
-[2]: http://versionbadg.es/ljharb/has-bigints.svg
-[3]: https://travis-ci.org/ljharb/has-bigints.svg
-[4]: https://travis-ci.org/ljharb/has-bigints
+[2]: https://versionbadg.es/ljharb/has-bigints.svg
 [5]: https://david-dm.org/ljharb/has-bigints.svg
 [6]: https://david-dm.org/ljharb/has-bigints
 [7]: https://david-dm.org/ljharb/has-bigints/dev-status.svg
@@ -32,7 +29,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [9]: https://ci.testling.com/ljharb/has-bigints.png
 [10]: https://ci.testling.com/ljharb/has-bigints
 [11]: https://nodei.co/npm/has-bigints.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/has-bigints.svg
+[license-image]: https://img.shields.io/npm/l/has-bigints.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/has-bigints.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=has-bigints
+[downloads-image]: https://img.shields.io/npm/dm/has-bigints.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=has-bigints
