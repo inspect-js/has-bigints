@@ -34,14 +34,14 @@
 	},
 	"homepage": "https://github.com/ljharb/has-bigints#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.3.0",
-		"aud": "^1.1.3",
+		"@ljharb/eslint-config": "^17.5.1",
+		"aud": "^1.1.5",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.15.0",
+		"eslint": "^7.25.0",
 		"in-publish": "^2.0.1",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.0.1"
+		"tape": "^5.2.2"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
