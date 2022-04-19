@@ -8,6 +8,7 @@ jobs:
     with:
       range: '< 10'
       type: minors
+      skip-ls-check: true
       command: npm run tests-only
 
   node:
