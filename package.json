@@ -18,6 +18,10 @@
 		"type": "git",
 		"url": "git+https://github.com/ljharb/has-bigints.git"
 	},
+	"files": [
+		"CHANGELOG.md",
+		"index.js"
+	],
 	"keywords": [
 		"BigInt",
 		"bigints",
