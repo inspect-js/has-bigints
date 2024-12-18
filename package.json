@@ -1,6 +1,6 @@
 {
 	"name": "has-bigints",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "Determine if the JS environment has BigInt support.",
 	"main": "index.js",
 	"scripts": {
